@@ -5,23 +5,59 @@
     box-sizing: border-box;
 }
 
+/*UTILITY*/
 .container{
     width: 1200px;
     margin: 0 auto;
 }
 
+body{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
 
 
 
 /*HEADER*/
 header{
     background-color: blue;
+    height: 100px;
 }
+
+
+/*MAIN*/
+
 
 main{
-
+    height: calc(100vh - 100px);
+    background-color: black;
 }
 
-.main-wrapper{
-    
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col{
+    display: flex;
+    flex-basis: calc(100% / 7);
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.card{
+    margin: 
+}
+
+.card-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.main-wrapper :hover.user-card{
+
 }
